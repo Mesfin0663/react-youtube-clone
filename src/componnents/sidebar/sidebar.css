@@ -1,0 +1,28 @@
+.sidebar_container{
+    width: 230px;
+    position: fixed;
+    top: 60px;
+    left: 0;
+    height: 100vh;
+    /* background: rgb(231, 209, 209); */
+    /* border: 1px solid black; */
+}
+.sidebar_item{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    margin: 10px;
+    border-radius: 10px;
+}
+.sidebar_item p{
+    font-size: 25px;
+}
+.sidebar_item:hover{
+    background-color: rgb(237, 227, 227);
+    cursor: pointer;
+}
+.selected{
+    background-color: rgb(237, 227, 227);
+
+}

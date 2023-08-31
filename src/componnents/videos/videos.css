@@ -1,0 +1,35 @@
+
+.videos_container{
+    padding-top: 70px;
+    /* width: 80%; */
+    position: absolute;
+    margin: 0 auto;
+    left: 240px;
+
+}
+.video_wrapper{
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.video_card{
+    /* width: 500px;
+    height: 500px; */
+    margin: 20px;
+
+}
+.video_top_title{
+    margin-left: 20px;
+}
+.video_title{
+    font-size: 20px;
+    max-width: 350px;
+    word-wrap: break-word;
+}
+.video_image{
+    border-radius: 10px;
+    width: 350px;
+}
+.video_description{
+    max-width: 350px;
+}
