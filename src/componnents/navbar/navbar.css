@@ -34,18 +34,45 @@
     background-color: white;
     border-radius: 20px;
     display: flex;
-    /* justify-content: ; */
+    justify-content: center; 
     /* padding: 10px; */
-
+    position: relative;
+    /* top: -9px; */
+    /* border: 1px solid black; */
 }
 .nav_search input{
    width: 100%;
    border: none;
    border-radius: 20px;
    height: 40px;
+       border: 1px solid black;
+
 }
 .icon_button_box{
     display: flex;
     justify-content: center;
     align-items: center;
 }
+.nav_search_icon{
+  position: absolute;
+  right: 10px;
+  top: 8px;
+}
+
+/* @media only screen and (min-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }
+
+  @media only screen and (min-width: 768px) {
+    body {
+      background-color: rgb(230, 173, 173);
+    }
+  }
+
+  @media only screen and (min-width: 1000px) {
+    body {
+      background-color: rgb(228, 230, 173);
+    }
+  } */

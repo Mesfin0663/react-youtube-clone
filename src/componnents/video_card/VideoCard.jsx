@@ -1,7 +1,7 @@
 import React from 'react'
 
-function VideoCard({imgUrl,title,description,key}) {
-    console.log("video Id",key)
+function VideoCard({imgUrl,title,description,id}) {
+    console.log("video Id",id)
     return (
         <div className='video_card'>
             <img className='video_image' src={imgUrl} alt="" />
